@@ -18,57 +18,60 @@
 
     <main>
         <div class="top-block">
-            <img src="img/top-block.webp" title="Сам решу" alt="Сам решу">
+            <picture>
+                <source media="(max-width: 425px)" srcset="img/top-block-mobile.webp">
+                <img src="img/top-block.webp" title="Сам решу" alt="Сам решу">
+            </picture>
+
             <div class="top-block__content">
                 <div class="top-block__text">
                     Мир любит подсказывать, как вам жить: «Так принято, так делают все».
                     Но что, если вы решите сами? <a href="https://drivee.onelink.me/MfzP/y2op2jyu">Drivee</a> и MAXIM запускает квест, в котором главный герой – это вы. Вас ждет серия жизненных ситуаций в формате «А что выберете вы?». Каждый выбор – плюсик к одному из качеств: прагматизм или эмоции. 
                 </div>
-                <div class="top-block__btn btn">
+                <div class="top-block__btn btn start">
                     старт миссии
                 </div>
             </div>
         </div>
-        <div class="questions-block">
+        <div class="questions-block" style="display: none">
             <div class="question">
                 <div class="question__top main-width">
                     <div class="question__counter">
-                        <span>1</span>/10
+                        <span></span>
                     </div>
                     <div class="question__title">
-                        Звонок судьбы
                     </div>
                 </div>
                 <div class="question__image">
-                    <img src="img/question-1.webp">
+                    <picture>
+                        <source media="(max-width: 425px)" srcset="">
+                        <img src="">
+                    </picture>
                 </div>
                 <div class="question__text">
-                    Твои действия?
                 </div>
             </div>
-            <div class="answers main-width">
-                <div class="answer answer--1" data-answer="1">
-                    <img src="img/answer-1.webp">
+            <div class="answers">
+                <div class="answer answer--1" data-answer="rational">
+                    <img src="">
                     <div class="answer__text">
-                        <div>Позвонить HR – собеседование ждет, шанс года!</div>
+                        <div></div>
                     </div>
                 </div>
-                <div class="answer answer--2" data-answer="2">
-                    <img src="img/answer-2.webp">
+                <div class="answer answer--2" data-answer="emotional">
+                    <img src="">
                     <div class="answer__text">
-                        <div>Закрыть телефон – лечу на рыбалку и пусть весь мир подождет!</div>
+                        <div></div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="final-block">
+        <div class="final-block" style="display: none">
             <div class="final-block__image">
-                <img src="img/final-image-1.webp">
+                <img src="">
             </div>
             <div class="final-block__title">
                 <div>
-                Ты <span>—</span><br>
-                охотник за эмоциями
                 </div>
                 <a class="restart">
                     <svg width="57" height="48" viewBox="0 0 57 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +82,6 @@
             </div>
             <div class="final-block__content">
                 <div class="final-block__text">
-                    Вы живете моментом. Для вас поездка – это часть приключения: кабриолет с ветром в волосах, неоновые огни, спонтанные маршруты. Выбирайте пункт назначения, ставьте свою цену и вперед на поиски приключений. Тут можно договориться с водителем даже о поездке в другой город - эмоций хватит надолго.  Главное, не забудьте указать свои пожелания в комментариях при заказе такси и получите именно то, что нужно вам.
                 </div>
                 <div class="final-block__drivee drivee">
                     <div class="drivee__content">
@@ -161,6 +163,7 @@
 
 </div>
     <script src="js/app.min.js"></script>
+    <script src="js/choice.js"></script>
 </footer>
 
 </body>

@@ -53,7 +53,7 @@
       }
 
       &:hover:after {
-        border: 0.94vw solid; // 18px
+        border: 0.94vw solid #96ea28; // 18px
       }
     }
   }
@@ -79,9 +79,6 @@
     }
   }
 
-  &__content {
-    max-width: 40.36vw; // 775px
-  }
 
   &__text {
     font-size: 1.4vw;
@@ -104,6 +101,10 @@
     &__title {
       font-size: 2.60vw; // 50px
       line-height: 110%;
+
+      img {
+        max-width: 21%;
+      }
     }
 
     &__links {
@@ -167,7 +168,7 @@
     &--4 {
       width: calc(100% / 3 - 0.73vw);
       padding: 2.08vw 0.52vw 2.08vw 2.08vw; // 40px 10px 40px 40px
-      gap: 1vw;   
+      gap: 1vw;
 
       .infographics-block__image {
         min-width: 48%;
@@ -189,10 +190,10 @@
   }
 }
 
-footer {
-  padding: 1.04vw 0; // 20px
-
-  .footer {
-    font-size: 0.78vw; // 15px
-  }
-}
+//footer {
+//  padding: 1.04vw 0; // 20px
+//
+//  .footer {
+//    font-size: 0.78vw; // 15px
+//  }
+//}

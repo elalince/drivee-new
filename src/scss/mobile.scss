@@ -1,0 +1,204 @@
+@media (max-width: 425px) {
+  .btn {
+    width: 200px;
+    height: 44px;
+    font-size: 15px;
+    border-radius: 9px;
+  }
+
+  .main-width {
+    max-width: 90vw;
+    padding: 0;
+  }
+  .top-block {
+    &__content {
+      max-width: 90vw;
+      padding: 40px 0;
+    }
+
+    &__text {
+      font-size: 15px;
+    }
+  }
+
+  .questions-block {
+    .question {
+      &__top {
+        font-size: 40px;
+      }
+
+      &__text {
+        font-size: 28px;
+      }
+    }
+
+    .answers {
+      max-width: 90vw;
+      flex-direction: column;
+      gap: 12px;
+
+      .answer {
+        &__text {
+          div {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .final-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    &__title {
+      order: 0;
+      width: 100%;
+      max-width: 90vw;
+      font-size: 40px;
+      margin: 0 auto 20px;
+
+      .restart {
+        min-width: 44px;
+        height: 44px;
+      }
+    }
+
+    &__image {
+      order: 1;
+      max-width: 100%;
+      padding-left: 5vw;
+    }
+
+    &__content {
+      order: 2;
+      padding-right: 0;
+    }
+
+    &__text {
+      max-width: 90vw;
+      margin: 20px auto;
+      font-size: 15px;
+    }
+
+    .drivee {
+      margin-left: 0;
+      border-radius: 32px;
+
+      &__content {
+        padding: 30px;
+      }
+
+      &__text {
+        font-size: 15px;
+      }
+
+      &__title {
+        font-size: 30px;
+
+        img {
+          max-width: 30%;
+        }
+      }
+
+      &__links {
+        font-size: 15px;
+        padding: 30px 10px 30px 30px;
+        border-radius: 32px;
+
+        img {
+          max-width: 56px;
+        }
+      }
+    }
+  }
+
+  .description-block {
+    flex-direction: column;
+    align-items: flex-start;
+
+    img {
+      max-width: 200px;
+    }
+
+    &__text {
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+
+    &__links {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  .infographics-block {
+    max-width: 100%;
+    flex-direction: column;
+    gap: 10px;
+
+    &__item {
+      width: 100% !important;
+      border-radius: 48px;
+      padding: 30px 20px;
+
+      &--1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-top: 0;
+
+        .infographics-block__image {
+          width: 214px;
+          min-width: 214px;
+        }
+      }
+
+      &--2 {
+        padding-right: 10px;
+      }
+
+      &--3 {
+        .infographics-block__image {
+          max-width: 167px;
+          min-width: 167px;
+        }
+      }
+
+      &--4 {
+        gap: 30px;
+        padding-left: 30px;
+        height: 125px;
+
+        .infographics-block__image {
+          max-width: 56px;
+          min-width: 56px;
+        }
+      }
+
+      &--5 {
+      flex-direction: row;
+        height: 125px;
+        align-items: center;
+
+        .infographics-block__text {
+          max-width: 100%;
+        }
+
+        .infographics-block__image {
+          max-width: 65px;
+          min-width: 65px;
+        }
+      }
+    }
+
+    &__text {
+      font-size: 15px;
+    }
+  }
+
+  footer .footer {
+    font-size: 9px;
+  }
+}
