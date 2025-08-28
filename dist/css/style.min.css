@@ -414,7 +414,7 @@ h1, h2, h3 {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 40px 0 100px;
 }
 footer .footer {
   font-weight: 400;
@@ -422,6 +422,12 @@ footer .footer {
   text-align: center;
   color: #fff;
   opacity: 0.6;
+  max-width: 1130px;
+}
+footer .footer__team {
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 20px;
 }
 
 .btn {
@@ -740,7 +746,15 @@ footer .footer {
   .infographics-block__text {
     font-size: 15px;
   }
+  footer {
+    padding: 60px 0 100px;
+  }
   footer .footer {
     font-size: 9px;
+  }
+  footer .footer__team {
+    font-size: 12px;
+    line-height: 140%;
+    margin-bottom: 8px;
   }
 }

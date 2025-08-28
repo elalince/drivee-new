@@ -500,7 +500,7 @@ h2 {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 40px 0 100px;
 
   .footer {
     font-weight: 400;
@@ -508,6 +508,13 @@ footer {
     text-align: center;
     color: #fff;
     opacity: 0.6;
+    max-width: 1130px;
+
+      &__team {
+        font-size: 20px;
+        line-height: 140%;
+        margin-bottom: 20px;
+    }
   }
 }
 

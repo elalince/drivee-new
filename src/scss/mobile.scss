@@ -209,7 +209,16 @@
     }
   }
 
-  footer .footer {
+  footer {
+  padding: 60px 0 100px;
+  .footer {
     font-size: 9px;
+
+    &__team {
+      font-size: 12px;
+      line-height: 140%;
+      margin-bottom: 8px;
+    }
   }
+}
 }
