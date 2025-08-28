@@ -611,8 +611,11 @@ footer .footer {
     flex-direction: column;
     gap: 12px;
   }
+  .questions-block .answers .answer__content:hover::after {
+    border: 8px solid #96ea28;
+  }
   .questions-block .answers .answer__text div {
-    font-size: 15px;
+    font-size: 14px;
   }
   .questions-block .answers .answer__doptext {
     font-size: 12px;

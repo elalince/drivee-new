@@ -38,9 +38,15 @@
       gap: 12px;
 
       .answer {
+        &__content {
+            &:hover::after {
+              border: 8px solid #96ea28;
+            }
+        }
+
         &__text {
           div {
-            font-size: 15px;
+            font-size: 14px;
           }
         }
 
