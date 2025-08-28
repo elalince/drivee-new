@@ -204,12 +204,14 @@ document.addEventListener("DOMContentLoaded", () => {
         const result = finalResults[resultType];
 
         finalBlock.querySelector(".final-block__image img").src = result.img;
-        finalBlock.querySelector(".final-block__title div").innerHTML = result.title;
+        finalBlock.querySelector(".final-block__title div div").innerHTML = result.title;
         finalBlock.querySelector(".final-block__text").innerHTML = result.text;
         finalBlock.querySelector(".drivee__text").innerHTML = result.drivee;
 
         setDisplay(questionsBlock, "none");
         setDisplay(finalBlock, "grid");
+
+        finalBlock.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 
 
