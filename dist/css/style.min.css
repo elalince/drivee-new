@@ -154,15 +154,34 @@ h1, h2, h3 {
 }
 .questions-block .answers {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   max-width: 1596px;
   margin: 71px auto;
+  gap: 30px;
 }
 .questions-block .answers .answer {
   flex: 1;
   position: relative;
   cursor: pointer;
+}
+.questions-block .answers .answer__content {
+  position: relative;
+}
+.questions-block .answers .answer__content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3s ease;
+}
+.questions-block .answers .answer__content:hover:after {
+  border: 18px solid #96ea28;
+}
+.questions-block .answers .answer__content img {
+  width: 100%;
 }
 .questions-block .answers .answer__text {
   position: absolute;
@@ -188,17 +207,22 @@ h1, h2, h3 {
   text-decoration-skip-ink: none;
   color: #96ea28;
 }
-.questions-block .answers .answer::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  transition: all 0.3s ease;
+.questions-block .answers .answer__doptext {
+  border-radius: 0 0 49px 49px;
+  padding: 33px;
+  font-weight: 500;
+  font-size: 26px;
+  background: #fff;
+  color: #1e1e1e;
+  text-align: center;
 }
-.questions-block .answers .answer:hover:after {
-  border: 18px solid #96ea28;
+.questions-block .answers .answer__doptext div {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.questions-block .answers .answer__doptext a {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
 }
 
 .final-block {
@@ -435,14 +459,21 @@ footer .footer {
 }
 .questions-block .answers {
   margin-top: 3.7vw;
+  gap: 1.56vw;
 }
 .questions-block .answers .answer__text div {
   max-width: 65%;
-  font-size: 2vw;
+  font-size: 1.7vw;
   text-align: center;
 }
 .questions-block .answers .answer:hover:after {
   border: 0.94vw solid #96ea28;
+}
+.questions-block .answers .answer__doptext {
+  border-radius: 0 0 2.55vw 2.55vw;
+  padding: 1.72vw;
+  font-weight: 500;
+  font-size: 1.35vw;
 }
 
 .final-block {
@@ -582,6 +613,9 @@ footer .footer {
   }
   .questions-block .answers .answer__text div {
     font-size: 15px;
+  }
+  .questions-block .answers .answer__doptext {
+    font-size: 12px;
   }
   .final-block {
     display: flex;

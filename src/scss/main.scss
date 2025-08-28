@@ -190,15 +190,39 @@ h2 {
 
   .answers {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     max-width: 1596px;
     margin: 71px auto;
+    gap: 30px;
 
     .answer {
       flex: 1;
       position: relative;
       cursor: pointer;
+
+      &__content {
+        position: relative;
+
+          &::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          transition: all .3s ease;
+        }
+
+        &:hover:after {
+          border: 18px solid #96ea28;
+        }
+
+        img {
+          width: 100%;
+        }
+      }
+
 
       &__text {
         position: absolute;
@@ -227,18 +251,26 @@ h2 {
         }
       }
 
-      &::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        transition: all .3s ease;
-      }
+     
 
-      &:hover:after {
-        border: 18px solid #96ea28;
+      &__doptext {
+        border-radius: 0 0 49px 49px;
+        padding: 33px;
+        font-weight: 500;
+        font-size: 26px;
+        background: #fff;
+        color: #1e1e1e;
+        text-align: center;
+
+        div {
+          max-width: 90%;
+          margin: 0 auto;
+        }
+
+        a {
+          text-decoration: underline;
+          text-decoration-skip-ink: none;
+        }
       }
     }
   }

@@ -15,110 +15,123 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "Звонок судьбы",
             imgDesktop: "img/question-1.webp",
             imgMobile: "img/question-1-mobile.webp",
-            text: "Твои действия?",
+            text: "Ваши действия?",
             answers: [
-                { text: "Позвонить HR – собеседование ждет, шанс года!", img: "img/answer-1.webp", type: "rational" },
-                { text: "Закрыть телефон – лечу на рыбалку и пусть весь мир подождет!", img: "img/answer-2.webp", type: "emotional" }
+                { text: "Позвонить HR – собеседование ждет, шанс года!", img: "img/answer-1-1.webp", type: "rational" },
+                { text: "Закрыть телефон – лечу на рыбалку и пусть весь мир подождет!", img: "img/answer-1-2.webp", type: "emotional" }
             ]
         },
         // Добавляем остальные вопросы аналогично
         {
             counter: "2/10",
             title: "Выбор коня",
-            imgDesktop: "img/question-1.webp",
-            imgMobile: "img/question-1-mobile.webp",
-            text: "Твои действия?",
+            imgDesktop: "img/question-2.webp",
+            imgMobile: "img/question-2-mobile.webp",
+            text: "Что выберете?",
             answers: [
-                { text: "Седан бизнес-класса: кондиционер, кожа, много места для заднего пассажира. Прямо маленький офис класса А на колесах.", img: "img/answer-1.webp", type: "rational" },
-                { text: "Кабриолет с харизмой и ветром в волосах. Можно постоять в пробке как настоящая суперзвезда.", img: "img/answer-2.webp", type: "emotional" }
+                { text: "Сесть в седан –  комфорт дороже понтов.", img: "img/answer-2-1.webp", type: "rational" },
+                { text: "Сесть в кабриолет – пусть мир видит, как я живу! ", img: "img/answer-2-2.webp", type: "emotional" }
             ]
         },
         {
             counter: "3/10",
             title: "Час до встречи",
-            imgDesktop: "img/question-1.webp",
-            imgMobile: "img/question-1-mobile.webp",
-            text: "Твои действия?",
+            imgDesktop: "img/question-3.webp",
+            imgMobile: "img/question-3-mobile.webp",
+            text: "Что делать, чтобы не подмочить свою репутацию и остаться точным и четким как швейцарский банк?",
             answers: [
-                { text: "Вызываю такси – по пути можно еще раз повторить свою блестящую речь.", img: "img/answer-1.webp", type: "rational" },
-                { text: "Еду на своей машине –  еду в своем ритме, чувствую драйв от вождения и сам отвечаю за свое время.", img: "img/answer-2.webp", type: "emotional" }
+                { text: "Вызываю такси – по пути можно еще раз повторить свою блестящую речь.", img: "img/answer-3-1.webp", type: "rational" },
+                { text: "Еду на своей машине –  еду в своем ритме, чувствую драйв от вождения и сам отвечаю за свое время.", img: "img/answer-3-2.webp", type: "emotional" }
             ]
         },
         {
             counter: "4/10",
             title: "На свидание",
-            imgDesktop: "img/question-1.webp",
-            imgMobile: "img/question-1-mobile.webp",
-            text: "Твои действия?",
+            imgDesktop: "img/question-4.webp",
+            imgMobile: "img/question-4-mobile.webp",
+            text: "На чем поедете с девушкой?",
             answers: [
-                { text: "На своей машине – можно все контролировать и заодно показать свои навыки вождения в час пик в пробке.", img: "img/answer-1.webp", type: "rational" },
-                { text: "На такси  – можно расслабиться и не думать о парковке, к тому же неизвестно, где вас застанет ночь.", img: "img/answer-2.webp", type: "emotional" }
+                { text: "На своей машине – можно все контролировать и заодно показать свои навыки вождения в час пик в пробке.", img: "img/answer-4-1.webp", type: "rational" },
+                { text: "На такси  – можно расслабиться и не думать о парковке, к тому же неизвестно, где вас застанет ночь.", img: "img/answer-4-2.webp", type: "emotional" }
             ]
         },
         {
             counter: "5/10",
             title: "Важные документы",
-            imgDesktop: "img/question-1.webp",
-            imgMobile: "img/question-1-mobile.webp",
-            text: "Твои действия?",
+            imgDesktop: "img/question-5.webp",
+            imgMobile: "img/question-5-mobile.webp",
+            text: "Ваши действия?",
             answers: [
-                { text: "Отправить курьерской доставкой <a href='https://drivee.onelink.me/MfzP/y2op2jyu'>Drivee</a>. В приложении сервиса выбираем «Курьер», договариваемся с исполнителем о стоимости и делегируем эту задачу профессионалам.", img: "img/answer-1.webp", type: "rational" },
-                { text: "ЗОтвезти лично на своем автомобиле – заодно можно подключиться к Bluetooth и по пути врубить плейлист с любимыми треками.", img: "img/answer-2.webp", type: "emotional" }
+                { text: "Отправить курьерской доставкой Drivee.", 
+                    img: "img/answer-5-1.webp", 
+                    type: "rational",
+                         doptext: "В приложении сервиса выбираем «Курьер», договариваемся с исполнителем о стоимости и делегируем эту задачу профессионалам. <br><br>Приложение Drivee доступно для скачивания в <a href='https://drivee.onelink.me/MfzP/y2op2jyu'>App Store</a>, <a href='https://drivee.onelink.me/MfzP/y2op2jyu'>Google Play</a> и <a href='https://drivee.onelink.me/MfzP/y2op2jyu'>AppGallery</a>."
+                },
+                { text: "Отвезти лично на своем автомобиле – заодно можно подключиться к Bluetooth и по пути врубить плейлист с любимыми треками.", 
+                    img: "img/answer-5-2.webp", 
+                    type: "emotional"
+                }
             ]
         },
         {
             counter: "6/10",
             title: "Назначьте свою цену",
-            imgDesktop: "img/question-1.webp",
-            imgMobile: "img/question-1-mobile.webp",
-            text: "Твои действия?",
+            imgDesktop: "img/question-6.webp",
+            imgMobile: "img/question-6-mobile.webp",
+            text: "Как поступите в этой ситуации: поставите цену ниже чем обычно или щедро дадите сверху?",
             answers: [
-                { text: "Зачем платить больше? Предложу рекомендуемую стоимость (ее можно увидеть в приложении Drivee) и попробую договориться с водителями на эту цену.", img: "img/answer-1.webp", type: "rational" },
-                { text: "В час пик водители и так нарасхват. Не люблю ждать, поэтому дам побольше, чтобы побыстрее уехать.", img: "img/answer-2.webp", type: "emotional" }
+                { text: "Зачем платить больше? Предложу рекомендуемую стоимость (ее можно увидеть в приложении Drivee) и попробую договориться с водителями на эту цену.", 
+                    img: "img/answer-6-1.webp", 
+                    type: "rational",
+                    doptext: "Drivee – поездки, о которых можно договориться. Скачать приложение <a href='https://drivee.onelink.me/MfzP/y2op2jyu'>Drivee</a>."},
+                { text: "В час пик водители и так нарасхват. Не люблю ждать, поэтому дам побольше, чтобы побыстрее уехать.", 
+                    img: "img/answer-6-2.webp", 
+                    type: "emotional",
+                    doptext: "В Drivee решаете вы, а не алгоритмы. Скачать приложение <a href='https://drivee.onelink.me/MfzP/y2op2jyu'>Drivee</a>."}
             ]
         },
         {
             counter: "7/10",
-            title: "ЗВодитель на выбор",
-            imgDesktop: "img/question-1.webp",
-            imgMobile: "img/question-1-mobile.webp",
-            text: "Твои действия?",
+            title: "Водитель на выбор",
+            imgDesktop: "img/question-7.webp",
+            imgMobile: "img/question-7-mobile.webp",
+            text: "Кого выберете?",
             answers: [
-                { text: "Тихий профессионал –  едет, как тень. Ни слова. Можно работать, думать о вечном или просто беззастенчиво читать Maximonline.ru до полного разряда батареи.", img: "img/answer-1.webp", type: "rational" },
-                { text: "Веселый собеседник – будет рассказывать истории так, что полчаса в дороге пролетят, как одна минута, а ты уже знаешь, как он встретил жену и где самые вкусные чебуреки в городе.", img: "img/answer-2.webp", type: "emotional" }
+                { text: "Веселый собеседник", img: "img/answer-7-1.webp", type: "rational" },
+                { text: "Тихий профессионал", img: "img/answer-7-2.webp", type: "emotional" }
             ]
         },
         {
             counter: "8/10",
             title: "Ливень стеной",
-            imgDesktop: "img/question-1.webp",
-            imgMobile: "img/question-1-mobile.webp",
-            text: "Твои действия?",
+            imgDesktop: "img/question-8.webp",
+            imgMobile: "img/question-8-mobile.webp",
+            text: "Время выбирать:",
             answers: [
-                { text: "Машина с подогревом сидений – садишься, и через минуту чувствуешь себя котом, который нашел теплую батарею.", img: "img/answer-1.webp", type: "rational" },
-                { text: "Развернусь и пойду домой. Закажу доставку и буду смотреть новый сериал. А дела подождут до завтра.", img: "img/answer-2.webp", type: "emotional" }
+                { text: "Машина с подогревом сидений – садишься, и через минуту чувствуешь себя котом, который нашел теплую батарею.", img: "img/answer-8-1.webp", type: "rational" },
+                { text: "Развернусь и пойду домой. Закажу доставку и буду смотреть новый сериал. А дела подождут до завтра.", img: "img/answer-8-2.webp", type: "emotional" }
             ]
         },
         {
             counter: "9/10",
             title: "Аэропорт",
-            imgDesktop: "img/question-1.webp",
-            imgMobile: "img/question-1-mobile.webp",
-            text: "Твои действия?",
+            imgDesktop: "img/question-9.webp",
+            imgMobile: "img/question-9-mobile.webp",
+            text: "На чем планируете добираться домой?",
             answers: [
-                { text: "Универсал – все поместится, и не придется держать чемодан  на коленях.", img: "img/answer-1.webp", type: "rational" },
-                { text: "Премиум-седан – дорога домой превращается в маленький роскошный вояж, где единственное, чего не хватает – бокала шампанского.", img: "img/answer-2.webp", type: "emotional" }
+                { text: "Универсал – все поместится, и не придется держать чемодан  на коленях.", img: "img/answer-9-1.webp", type: "rational" },
+                { text: "Премиум-седан – дорога домой превращается в маленький роскошный вояж, где единственное, чего не хватает – бокала шампанского.", img: "img/answer-9-2.webp", type: "emotional" }
             ]
         },
         {
             counter: "10/10",
             title: "Путешествие между городами",
-            imgDesktop: "img/question-1.webp",
-            imgMobile: "img/question-1-mobile.webp",
-            text: "Твои действия?",
+            imgDesktop: "img/question-10.webp",
+            imgMobile: "img/question-10-mobile.webp",
+            text: "Но вопрос серьезный: как ехать?",
             answers: [
-                { text: "По классике поеду поездом –  сел, открыл ноутбук, через несколько часов уже пьешь кофе в другом городе. Практично, надежно, без пробок.", img: "img/answer-1.webp", type: "rational" },
-                { text: "Междугороднее такси. Настоящее приключение в стиле роад-муви: можно поиграть в водителем в города, остановиться выпить кофе на заправке и ни о чем не думать и смотреть в окно, пока дорога не приведет в пункт назначение.", img: "img/answer-2.webp", type: "emotional" }
+                { text: "По классике поеду поездом –  сел, открыл ноутбук, через несколько часов уже пьешь кофе в другом городе. Практично, надежно, без пробок.", img: "img/answer-10-1.webp", type: "rational" },
+                { text: "Междугороднее такси. Настоящее приключение в стиле роад-муви: можно поиграть в водителем в города, остановиться выпить кофе на заправке и ни о чем не думать и смотреть в окно, пока дорога не приведет в пункт назначение.", img: "img/answer-10-2.webp", type: "emotional" }
             ]
         },
 
@@ -160,15 +173,28 @@ document.addEventListener("DOMContentLoaded", () => {
         picture.querySelector("img").title = q.title;
 
         const answerDivs = answersBlock.querySelectorAll(".answer");
-        answerDivs.forEach((div, i) => {
-            div.dataset.answer = q.answers[i].type;
-            div.querySelector("img").src = q.answers[i].img;
-            div.querySelector(".answer__text div").innerHTML = q.answers[i].text;
-        });
+            answerDivs.forEach((div, i) => {
+                const answer = q.answers[i]; // <-- добавляем эту строку
+
+                div.dataset.answer = answer.type;
+                div.querySelector("img").src = answer.img;
+                div.querySelector(".answer__text div").innerHTML = answer.text;
+
+                const dopTextElem = div.querySelector(".answer__doptext");
+                const dopTextElemInner = div.querySelector(".answer__doptext div");
+                if (answer.doptext && answer.doptext.trim() !== "") {
+                    dopTextElem.style.display = "block";
+                    dopTextElemInner.innerHTML = answer.doptext;
+                } else {
+                    dopTextElem.style.display = "none";
+                    dopTextElemInner.innerHTML = "";
+                }
+            });
+
 
         setDisplay(questionsBlock, "block");
         setDisplay(finalBlock, "none");
-
+        
         questionsBlock.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 
