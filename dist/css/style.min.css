@@ -636,6 +636,7 @@ footer .to-top {
   }
   .questions-block .answers .answer__doptext {
     font-size: 12px;
+    max-width: 90%;
   }
   .final-block {
     display: flex;
