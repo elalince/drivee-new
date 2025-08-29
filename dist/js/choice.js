@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 { text: "Отправить курьерской доставкой Drivee.", 
                     img: "img/answer-5-1.webp", 
                     type: "rational",
-                         doptext: "В приложении сервиса выбираем «Курьер», договариваемся с исполнителем о стоимости и делегируем эту задачу профессионалам. <br><br>Приложение Drivee доступно для скачивания в <a href='https://drivee.onelink.me/MfzP/y2op2jyu'>App Store</a>, <a href='https://drivee.onelink.me/MfzP/y2op2jyu'>Google Play</a> и <a href='https://drivee.onelink.me/MfzP/y2op2jyu'>AppGallery</a>."
+                         doptext: "В приложении сервиса выбираем «Курьер», договариваемся с исполнителем о стоимости и делегируем эту задачу профессионалам. <br><br>Приложение Drivee доступно для скачивания в <a href='https://drivee.onelink.me/MfzP/y2op2jyu' target='_blank'>App Store</a>, <a href='https://drivee.onelink.me/MfzP/y2op2jyu' target='_blank'>Google Play</a> и <a href='https://drivee.onelink.me/MfzP/y2op2jyu' target='_blank'>AppGallery</a>."
                 },
                 { text: "Отвезти лично на своем автомобиле – заодно можно подключиться к Bluetooth и по пути врубить плейлист с любимыми треками.", 
                     img: "img/answer-5-2.webp", 
@@ -83,11 +83,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 { text: "Зачем платить больше? Предложу рекомендуемую стоимость (ее можно увидеть в приложении Drivee) и попробую договориться с водителями на эту цену.", 
                     img: "img/answer-6-1.webp", 
                     type: "rational",
-                    doptext: "Drivee – поездки, о которых можно договориться. Скачать приложение <a href='https://drivee.onelink.me/MfzP/y2op2jyu'>Drivee</a>."},
+                    doptext: "Drivee – поездки, о которых можно договориться. Скачать приложение <a href='https://drivee.onelink.me/MfzP/y2op2jyu' target='_blank'>Drivee</a>."},
                 { text: "В час пик водители и так нарасхват. Не люблю ждать, поэтому дам побольше, чтобы побыстрее уехать.", 
                     img: "img/answer-6-2.webp", 
                     type: "emotional",
-                    doptext: "В Drivee решаете вы, а не алгоритмы. Скачать приложение <a href='https://drivee.onelink.me/MfzP/y2op2jyu'>Drivee</a>."}
+                    doptext: "В Drivee решаете вы, а не алгоритмы. Скачать приложение <a href='https://drivee.onelink.me/MfzP/y2op2jyu' target='_blank'>Drivee</a>."}
             ]
         },
         {
@@ -141,14 +141,14 @@ document.addEventListener("DOMContentLoaded", () => {
         rational: {
             img: "img/final-image-1.webp",
             title: "Рационалист",
-            text: "Вы выбираете просто и с умом. Для вас важнее всего, чтобы было быстро, функционально и без лишних затрат. Вы привыкли полагаться на собственную логику, поэтому для вас сервис <a href='https://drivee.onelink.me/MfzP/y2op2jyu'>Drivee</a> подходит идеально. Здесь можно выбирать с кем ехать и за какую стоимость. Вместо бездушного алгоритма только вы решаете, сколько платить за поездку.",
+            text: "Вы выбираете просто и с умом. Для вас важнее всего, чтобы было быстро, функционально и без лишних затрат. Вы привыкли полагаться на собственную логику, поэтому для вас сервис <a href='https://drivee.onelink.me/MfzP/y2op2jyu' target='_blank'>Drivee</a> подходит идеально. Здесь можно выбирать с кем ехать и за какую стоимость. Вместо бездушного алгоритма только вы решаете, сколько платить за поездку.",
             drivee: ""
         },
         emotional: {
             img: "img/final-image-2.webp",
             title: "Охотник за эмоциями",
             text: "Вы живете моментом. Для вас поездка – это часть приключения: кабриолет с ветром в волосах, неоновые огни, спонтанные маршруты. Выбирайте пункт назначения, ставьте свою цену и вперед на поиски приключений. Тут можно договориться с водителем даже о поездке в другой город — эмоций хватит надолго. Главное, не забудьте указать свои пожелания в комментариях при заказе такси и получите именно то, что нужно вам.",
-            drivee: "С <a href='https://drivee.onelink.me/MfzP/y2op2jyu'>Drivee</a> путешествовать и передвигаться по городу становится очень легко, так как цену за поездку устанавливаете вы, а не алгоритмы."
+            drivee: "С <a href='https://drivee.onelink.me/MfzP/y2op2jyu' target='_blank'>Drivee</a> путешествовать и передвигаться по городу становится очень легко, так как цену за поездку устанавливаете вы, а не алгоритмы."
         }
     };
 

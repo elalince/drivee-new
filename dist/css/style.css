@@ -209,7 +209,6 @@ h1, h2, h3 {
   color: #96ea28;
 }
 .questions-block .answers .answer__doptext {
-  padding: 33px;
   font-weight: 500;
   font-size: 26px;
   color: #fff;
@@ -488,7 +487,6 @@ footer .to-top {
 }
 .questions-block .answers .answer__doptext {
   border-radius: 0 0 2.55vw 2.55vw;
-  padding: 1.72vw;
   font-weight: 500;
   font-size: 1.35vw;
 }
@@ -769,5 +767,9 @@ footer .to-top {
     font-size: 12px;
     line-height: 140%;
     margin-bottom: 8px;
+  }
+  footer .to-top svg {
+    width: 32px;
+    height: 32px;
   }
 }
