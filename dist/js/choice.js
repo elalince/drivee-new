@@ -119,8 +119,8 @@ document.addEventListener("DOMContentLoaded", () => {
             imgMobile: "img/question-9-mobile.webp",
             text: "На чем планируете добираться домой?",
             answers: [
-                { text: "Универсал – все поместится, и не придется держать чемодан  на коленях.", img: "img/answer-9-1.webp", type: "rational" },
-                { text: "Премиум-седан – дорога домой превращается в маленький роскошный вояж, где единственное, чего не хватает – бокала шампанского.", img: "img/answer-9-2.webp", type: "emotional" }
+                { text: "Универсал – все поместится, и не придется держать чемодан на коленях.", img: "img/answer-9-1.webp", type: "rational" },
+                { text: "Премиум-седан – пусть дорога домой превращается в маленький роскошный вояж, в котором разе что бокала шампанского не хватает.", img: "img/answer-9-2.webp", type: "emotional" }
             ]
         },
         {
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
             text: "Но вопрос серьезный: как ехать?",
             answers: [
                 { text: "По классике поеду поездом –  сел, открыл ноутбук, через несколько часов уже пьешь кофе в другом городе. Практично, надежно, без пробок.", img: "img/answer-10-1.webp", type: "rational" },
-                { text: "Междугороднее такси. Настоящее приключение в стиле роад-муви: можно поиграть в водителем в города, остановиться выпить кофе на заправке и ни о чем не думать и смотреть в окно, пока дорога не приведет в пункт назначение.", img: "img/answer-10-2.webp", type: "emotional" }
+                { text: "Междугороднее такси. Настоящее приключение в стиле роуд-муви: можно поиграть в водителем в города, остановиться выпить кофе на заправке и ни о чем не думать и смотреть в окно, пока дорога не приведет в пункт назначения.", img: "img/answer-10-2.webp", type: "emotional" }
             ]
         },
 
@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", () => {
             img: "img/final-image-1.webp",
             title: "Рационалист",
             text: "Вы выбираете просто и с умом. Для вас важнее всего, чтобы было быстро, функционально и без лишних затрат. Вы привыкли полагаться на собственную логику, поэтому для вас сервис <a href='https://drivee.onelink.me/MfzP/y2op2jyu'>Drivee</a> подходит идеально. Здесь можно выбирать с кем ехать и за какую стоимость. Вместо бездушного алгоритма только вы решаете, сколько платить за поездку.",
-            drivee: "<a href='https://drivee.onelink.me/MfzP/y2op2jyu'>Drivee</a> надежный сервис с четким маршрутом и водителем, который привезет вас точно к цели, без лишних спецэффектов."
+            drivee: ""
         },
         emotional: {
             img: "img/final-image-2.webp",
@@ -181,13 +181,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 div.querySelector(".answer__text div").innerHTML = answer.text;
 
                 const dopTextElem = div.querySelector(".answer__doptext");
-                const dopTextElemInner = div.querySelector(".answer__doptext div");
                 if (answer.doptext && answer.doptext.trim() !== "") {
                     dopTextElem.style.display = "block";
-                    dopTextElemInner.innerHTML = answer.doptext;
+                    dopTextElem.innerHTML = answer.doptext;
                 } else {
                     dopTextElem.style.display = "none";
-                    dopTextElemInner.innerHTML = "";
+                    dopTextElem.innerHTML = "";
                 }
             });
 

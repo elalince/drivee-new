@@ -27,7 +27,6 @@ body {
   -webkit-text-size-adjust: none;
   margin: 0;
   background: #1e1e1e;
-  min-width: 375px;
   overflow-x: hidden;
 }
 
@@ -193,9 +192,11 @@ h1, h2, h3 {
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
+  gap: 2vw;
 }
 .questions-block .answers .answer__text div {
-  max-width: 65%;
+  max-width: 80%;
   font-style: italic;
   font-weight: 900;
   font-size: 2vw;
@@ -208,16 +209,14 @@ h1, h2, h3 {
   color: #96ea28;
 }
 .questions-block .answers .answer__doptext {
-  border-radius: 0 0 49px 49px;
   padding: 33px;
   font-weight: 500;
   font-size: 26px;
-  background: #fff;
-  color: #1e1e1e;
+  color: #fff;
   text-align: center;
+  max-width: 80%;
 }
 .questions-block .answers .answer__doptext div {
-  max-width: 90%;
   margin: 0 auto;
 }
 .questions-block .answers .answer__doptext a {
@@ -310,6 +309,11 @@ h1, h2, h3 {
   font-size: 50px;
   line-height: 110%;
 }
+.final-block .drivee__title a {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #96ea28;
+}
 .final-block .drivee__links {
   display: flex;
   align-items: center;
@@ -335,13 +339,16 @@ h1, h2, h3 {
   gap: 78px;
 }
 .description-block > img {
-  max-width: 40%;
+  max-width: 19%;
 }
 .description-block__text {
   font-weight: 500;
-  font-size: 50px;
+  font-size: 36px;
   color: #fff;
   margin-bottom: 20px;
+}
+.description-block__text a {
+  text-decoration: underline;
 }
 .description-block__links {
   display: flex;
@@ -422,12 +429,17 @@ footer .footer {
   text-align: center;
   color: #fff;
   opacity: 0.6;
-  max-width: 1130px;
+  max-width: 1140px;
 }
 footer .footer__team {
   font-size: 20px;
   line-height: 140%;
   margin-bottom: 20px;
+}
+footer .to-top {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 .btn {
@@ -468,7 +480,6 @@ footer .footer__team {
   gap: 1.56vw;
 }
 .questions-block .answers .answer__text div {
-  max-width: 65%;
   font-size: 1.7vw;
   text-align: center;
 }
@@ -530,10 +541,10 @@ footer .footer__team {
 .description-block {
   margin-top: 5.21vw;
   margin-bottom: 10.42vw;
-  gap: 4.06vw;
+  gap: 10vw;
 }
 .description-block__text {
-  font-size: 2.6vw;
+  font-size: 1.9vw;
   margin-bottom: 1.04vw;
 }
 .description-block__links {
@@ -683,9 +694,10 @@ footer .footer__team {
   .description-block {
     flex-direction: column;
     align-items: flex-start;
+    gap: 15px;
   }
   .description-block img {
-    max-width: 200px;
+    max-width: 171px;
   }
   .description-block__text {
     font-size: 26px;
@@ -747,7 +759,7 @@ footer .footer__team {
     font-size: 15px;
   }
   footer {
-    padding: 60px 0 100px;
+    padding: 60px 8px 100px;
   }
   footer .footer {
     font-size: 9px;

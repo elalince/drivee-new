@@ -29,7 +29,6 @@ body {
   -webkit-text-size-adjust: none;
   margin: 0;
   background: #1e1e1e;
-  min-width: 375px;
   overflow-x: hidden;
 }
 main {
@@ -234,9 +233,11 @@ h2 {
         align-items: center;
         justify-content: center;
         text-align: center;
+        flex-direction: column;
+        gap: 2vw;
 
         div {
-          max-width: 65%;
+          max-width: 80%;
           font-style: italic;
           font-weight: 900;
           font-size: 2vw;
@@ -254,16 +255,14 @@ h2 {
      
 
       &__doptext {
-        border-radius: 0 0 49px 49px;
         padding: 33px;
         font-weight: 500;
         font-size: 26px;
-        background: #fff;
-        color: #1e1e1e;
+        color: #fff;
         text-align: center;
+        max-width: 80%;
 
         div {
-          max-width: 90%;
           margin: 0 auto;
         }
 
@@ -377,7 +376,13 @@ h2 {
     &__title {
       font-size: 50px;
       line-height: 110%;
+
+      a {
+       text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #96ea28;
     }
+  }
 
     &__links {
       display: flex;
@@ -408,14 +413,18 @@ h2 {
   gap: 78px;
 
   >img {
-    max-width: 40%;
+       max-width: 19%;
   }
 
   &__text {
     font-weight: 500;
-    font-size: 50px;
+    font-size: 36px;
     color: #fff;
     margin-bottom: 20px;
+    
+    a {
+      text-decoration: underline;
+    }
   }
 
   &__links {
@@ -508,13 +517,19 @@ footer {
     text-align: center;
     color: #fff;
     opacity: 0.6;
-    max-width: 1130px;
+    max-width: 1140px;
 
       &__team {
         font-size: 20px;
         line-height: 140%;
         margin-bottom: 20px;
     }
+  }
+
+  .to-top {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
   }
 }
 

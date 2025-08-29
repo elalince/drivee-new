@@ -47,7 +47,6 @@
     .answer {
       &__text {
         div {
-          max-width: 65%;
           font-size: 1.7vw;
           text-align: center;
         }
@@ -127,10 +126,10 @@
 .description-block {
   margin-top: 5.21vw; // 100px
   margin-bottom: 10.42vw; // 200px
-  gap: 4.06vw; // 78px
+  gap: 10vw;
 
   &__text {
-    font-size: 2.60vw; // 50px
+    font-size: 1.9vw; // 36x
     margin-bottom: 1.04vw; // 20px
   }
 
